@@ -53,6 +53,7 @@ In Experiment 3, entity-token patching transfers entity identity at **90–100%*
 ```text
 .
 ├── README.md
+├── PROJECT_SUMMARY.tex
 ├── PROJECT_SUMMARY.pdf             2-page research summary
 ├── figures/
 │   ├── fig2_transfer_curves.pdf
