@@ -6,7 +6,7 @@ This project studies when relation information and entity information become *ge
 
 ## Main finding
 
-Across four decoder-only models and eight prompt families, relation onset precedes entity onset by 10–16 tested layers (31–44% of network depth) at the final-token position. Entity information is *not* absent early — it is already strongly active at the entity/subject-token position from early layers, but only becomes generation-controlling at the final token after being routed there. This pattern is referred to as **deferred entity commitment**.
+Across four decoder-only models and eight prompt families, relation onset precedes entity onset by 10–16 tested layers (31–44% of network depth) at the final-token position. Entity information is *not* absent early rather it is already strongly active at the entity/subject-token position from early layers, but only becomes generation-controlling at the final token after being routed there. This pattern is referred to as **deferred entity commitment**.
 
 ## Models studied
 
