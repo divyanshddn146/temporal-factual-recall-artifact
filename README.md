@@ -21,16 +21,16 @@ Eight controlled fill-in-the-blank families spanning factual, morphological, lex
 
 ## Experiments included
 
-### Experiment 1 — Transfer curves and onset
+### Experiment 1: Transfer curves and onset
 Final-token activation patching with two conditions: *relation transfer* (same entity, different relation) and *entity transfer* (same relation, different entity). Onset = first tested layer crossing 0.4 transfer for two consecutive tested layers. A *wrong-entity* control separates true relation-only transfer from donor-answer copying.
 
-### Experiment 2 — Both-change competition
+### Experiment 2: Both-change competition
 Donor differs in *both* relation and entity, forcing direct competition. Outputs are classified as relation-wins, entity-wins, original-retained, or mixed. Includes noise, self-patch, alternate-donor, and unrelated-donor controls.
 
-### Experiment 3 — Entity-token vs final-token patching
+### Experiment 3: Entity-token vs final-token patching
 The key control: patching the donor's entity-token hidden state into the recipient's entity-token position vs. patching at the final-token position. Tests whether entity information is *absent* early or just *not yet routed* to the final token.
 
-### Experiment 4 — Layer-zone steering
+### Experiment 4: Layer-zone steering
 Mean-difference relation and entity steering vectors applied at mid- and late-layer zones, compared against matched-norm random-direction baselines.
 
 ## Key results
